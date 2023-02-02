@@ -1,9 +1,0 @@
-[07-Sep-2021 02:43:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/404.php on line 9
-[07-Sep-2021 02:43:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/404.php on line 9
-[07-Sep-2021 02:43:02 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/header.php on line 9
-[07-Sep-2021 02:43:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/archive.php on line 9
-[07-Sep-2021 02:43:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/404.php on line 9
-[07-Sep-2021 02:43:02 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/header.php on line 9
-[07-Sep-2021 02:43:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/archive.php on line 9
-[07-Sep-2021 02:43:03 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/header.php on line 9
-[07-Sep-2021 02:43:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/qq8awkor9vpq/public_html/wp-draft1-s/wp-content/themes/infocus/archive.php on line 9
