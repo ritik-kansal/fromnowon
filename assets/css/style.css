@@ -1,0 +1,126 @@
+header{
+    display: block;
+    position: relative;
+    background: #000;
+}
+
+header .container{
+    min-height: 108px;
+    background: url('../img/vittoria-new-logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 8px 10px;
+}
+
+.socialIcons{
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+.headerList{
+    display: block;
+    position: relative;
+}
+
+.headerList li{
+    display: inline-block;
+}
+
+.headerList li a{
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.headerList li:not(:first-child){
+    margin-left: 24px;
+}
+
+.heroSlider{
+    background: url('../img/full.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e6e6e6;
+}
+
+.heroSlider .container{
+    padding: 20px;
+}
+
+.text-content{
+    padding: 30px 30px;
+}
+
+.text-content h1{
+    font-size: 'in-regular';
+    font-weight: 100;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.text-content p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #888;
+}
+
+.img-content img{
+    max-width: 560px;
+}
+
+.text-content .greyBtn{
+    margin-top: 20px;
+    /* background: #625b56; */
+    box-shadow: 0 1px 2px rgb(0 0 0 / 30%), 1px 0 0 rgb(255 255 255 / 5%) inset, -1px 0 0 rgb(255 255 255 / 5%) inset;
+}
+
+.greyBtn{
+    color: #eee;
+    background: #625b56 url('../img/intro_title.png');
+    border-color: rgba(0,0,0,0.12) !important;
+    border-top: none!important;
+    border-bottom: none!important;
+    border-left: 1px solid rgba(0,0,0,0.12) !important;
+    border-right: 1px solid rgba(0,0,0,0.12) !important;
+    padding: 0 30px;
+    height: 40px;
+    line-height: 41px;
+    display: inline-block;
+}
+
+.swiper-wrapper{
+    position: unset !important;
+}
+
+.swiper-slide{
+    position: unset !important;
+}
+
+.introSection{
+    background-color: #e6e6e6;
+    padding: 30px;
+}
+
+.text-1{
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.introSection .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

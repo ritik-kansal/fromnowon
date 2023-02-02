@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'hv-regular';
+    src: url(../fonts/Helvetica.woff);
+}
+
+@font-face {
+    font-family: 'hv-bold';
+    src: url(../fonts/Helvetica-Bold.woff);
+}
+
+@font-face {
+    font-family: 'hv-black';
+    src: url(../fonts/Helvetica-Black.woff);
+}
