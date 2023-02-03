@@ -47,6 +47,7 @@ header .container{
     background: url('../img/full.png');
     background-size: cover;
     background-position: center;
+    min-height: 380px;
 }
 
 .content{
@@ -226,7 +227,6 @@ footer{
     max-width: 650px;
     padding: 50px 0;
     padding-right: 25px;
-
 }
 
 .lifeCoachingRight{
@@ -503,4 +503,23 @@ input{
 
 .workShopWrap .heading-2{
     text-align: left;
+}
+
+.img-content{
+    line-height: 0;
+}
+
+.heroSlider .swiper-pagination{
+    position: absolute;
+    bottom: -5px !important;
+}
+
+.heroSlider .swiper-pagination-bullet{
+    transform: scale(1) !important;
+    background: #000;
+    opacity: 1 !important;
+}
+
+.heroSlider .swiper-pagination-bullet-active{
+    opacity: 0.6 !important;
 }
