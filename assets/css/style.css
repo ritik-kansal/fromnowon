@@ -520,11 +520,6 @@ input {
     line-height: 0;
 }
 
-.heroSlider .swiper-pagination {
-    position: absolute;
-    bottom: -5px !important;
-}
-
 .heroSlider .swiper-pagination-bullet {
     transform: scale(1) !important;
     background: #000;
@@ -539,29 +534,35 @@ input {
     position: relative;
 }
 
-.submenuWrap:hover .submenu{
+.submenuWrap:hover .subMenuOuter{
     z-index: 9;
     height: auto;
     transition: 0.4s ease-in-out;
     overflow: visible;
+    /* border-top: 1px solid #999; */
+}
+
+.submenuWrap:hover .submenu{
+    z-index: 9;
+    height: auto;
     border-top: 1px solid #999;
 }
 
-.submenu{
+.subMenuOuter{
     position: absolute;
     z-index: 99;
-    top: 0;
-    margin-top: 30px;
+    top: 20px;
+    padding-top: 10px;
     z-index: -1;
     height: 0;
     transition: 0.1s ease-in-out;
     overflow: hidden;
-    transition-delay: 0.2s;
+    /* transition-delay: 0.2s; */
 }
 
 .submenu::before{
     content: '';
-    top: -4px;
+    top: 7px;
     left: 20px;
     position: absolute;
     border-bottom: 10px solid;

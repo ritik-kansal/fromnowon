@@ -7,7 +7,9 @@ var mobHomSwiper = new Swiper(".mobHomSwiper", {
     spaceBetween: 5,
     loop: false,
     parallax: false,
-    autoplay: 2000,
+    autoplay: {
+      delay: 3000,
+    },
     // mousewheel: true,
     speed: 1500,
     freeMode: false,
